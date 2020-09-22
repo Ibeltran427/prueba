@@ -1,0 +1,17 @@
+server:
+  port: 9999
+  
+
+
+spring:
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:navin
+  h2:
+    console:
+      enabled: true
+  security:
+    user: 
+      name: iansinho
+      password: 777   
+  
